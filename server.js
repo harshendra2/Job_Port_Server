@@ -22,9 +22,7 @@ app.use("/api",require("./Routes/Candidate/job_appy.routes"))
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerFile));
 
 
-  const swaggerAutogen = require('./swagger');
-
-
+  // const swaggerAutogen = require('./swagger');
 
 app.listen(PORT,()=>{
     require("./DB/db.config")
