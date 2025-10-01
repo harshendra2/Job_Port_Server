@@ -2,12 +2,12 @@
 
 This is a simple Node.js and Express.js server setup.
 
-## 🚀 Features
+## Features
 - Express.js for routing
 - Middleware support (body-parser, cors, etc.)
 - Basic folder structure
 
-## 📂 Project Structure
+## Project Structure
 
 
 project/
@@ -18,3 +18,9 @@ project/
 │  DB/ # Configuration files
 |  Modal / # Data base Schema
 |  docs / # List out all API
+
+
+  1:  git clone https://github.com/harshendra2/Job_Port_Server.git
+   cd project
+
+  2:  npm install
